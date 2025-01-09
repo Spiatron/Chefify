@@ -1,36 +1,109 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Chefify
 
-First, run the development server:
+Chefify is a modern recipe management and generation platform. This project utilizes cutting-edge web technologies to provide users with an engaging experience for creating, exploring, and managing recipes. With features like AI-powered recipe generation, user authentication, and a stunning UI, Chefify redefines how you interact with culinary content.
+
+---
+
+## 🚀 Features
+
+- **AI Recipe Generator**: Create unique recipes using AI.
+- **Interactive Gallery**: Explore recipes with an engaging interface.
+- **User Profiles**: Personalized user experience with authentication.
+- **Responsive Design**: Fully responsive UI built with Tailwind CSS.
+- **API Integration**: Robust APIs for generating, saving, and fetching recipes.
+- **Real-Time Suggestions**: Quick and dynamic recipe suggestions.
+
+---
+
+## 🛠️ Requirements
+
+Ensure you have the following installed before proceeding:
+
+1. [Node.js](https://nodejs.org/en)
+2. [XAMPP](https://www.apachefriends.org)
+3. [Visual Studio Code (VS Code)](https://code.visualstudio.com)
+
+---
+
+## 📦 Installation
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/YourGitHubProfile/Chefify.git
+cd Chefify
+```
+
+### Step 2: Install Dependencies
+
+```bash
+npm install
+```
+
+### Step 3: Database Setup
+
+1. Start the **MySQL** service in the **XAMPP Control Panel**.
+2. Configure the `DATABASE_URL` in the `.env` file with your MySQL database connection string.
+3. Push the database schema using Prisma:
+
+```bash
+npx prisma db push
+```
+
+### Step 4: Run the Development Server
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📑 Project Structure
 
-## Learn More
+- **API Routes**: Located in `src/app/api/` for handling authentication, recipe generation, and database interactions.
+- **Components**: Modular components in `src/app/components/` for building the user interface.
+- **Styles**: Custom styles in `src/app/styles/`.
+- **Prisma Schema**: Database schema in `prisma/schema.prisma`.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚠️ Troubleshooting
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Database Connection Issues**: Ensure the MySQL port in XAMPP matches the port in the `DATABASE_URL` of the `.env` file.
+- **Environment Variables**: Double-check your `.env` configuration for accuracy.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+We welcome contributions to improve Chefify! Follow these steps:
+
+1. **Fork the Repository**: Create your own copy.
+2. **Create a New Branch**: Use a descriptive name:
+   ```bash
+   git checkout -b feature-branch-name
+   ```
+3. **Commit Your Changes**: Write clear commit messages:
+   ```bash
+   git commit -m "Add feature: description"
+   ```
+4. **Push to Your Branch**: Upload your changes:
+   ```bash
+   git push origin feature-branch-name
+   ```
+5. **Submit a Pull Request**: Explain your changes and submit a PR.
+
+---
+
+## 📧 Contact
+
+For support, feedback, or inquiries, reach out to us:
+
+- **Email**: [ahsanhafeez506@gmail.com](mailto:ahsanhafeez506@gmail.com)
+- **GitHub**: [Ahsan Hafeez](https://github.com/Spiatron)
+- **Linkedln**: [Ahsan Hafeez](https://www.linkedin.com/in/ahsan-hafeez-116943278/)
