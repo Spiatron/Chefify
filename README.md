@@ -1,5 +1,5 @@
 
-# Chefify
+# 🍳 Chefify
 
 Chefify is a modern recipe management and generation platform. This project utilizes cutting-edge web technologies to provide users with an engaging experience for creating, exploring, and managing recipes. With features like AI-powered recipe generation, user authentication, and a stunning UI, Chefify redefines how you interact with culinary content.
 
