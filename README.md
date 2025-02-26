@@ -74,7 +74,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ## ⚠️ Troubleshooting
 
-- **Database Connection Issues**: Ensure the MySQL port in XAMPP matches the port in the `DATABASE_URL` of the `.env` file.
 - **Environment Variables**: Double-check your `.env` configuration for accuracy.
 
 ---
