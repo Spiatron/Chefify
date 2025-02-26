@@ -21,8 +21,7 @@ Chefify is a modern recipe management and generation platform. This project util
 Ensure you have the following installed before proceeding:
 
 1. [Node.js](https://nodejs.org/en)
-2. [XAMPP](https://www.apachefriends.org)
-3. [Visual Studio Code (VS Code)](https://code.visualstudio.com)
+2. [Visual Studio Code (VS Code)](https://code.visualstudio.com)
 
 ---
 
@@ -43,9 +42,8 @@ npm install
 
 ### Step 3: Database Setup
 
-1. Start the **MySQL** service in the **XAMPP Control Panel**.
-2. Configure the `DATABASE_URL` in the `.env` file with your MySQL database connection string.
-3. Push the database schema using Prisma:
+1. Configure the `DATABASE_URL` in the `.env` file with your MySQL database connection string.
+2. Push the database schema using Prisma:
 
 ```bash
 npx prisma db push
